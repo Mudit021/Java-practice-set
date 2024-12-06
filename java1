@@ -28,7 +28,7 @@ public class Main{
     }
 }
 ------------------------------------------------------------------------
-# use of while ( this uses format of ICU i.e. Initialization, Condition, Update)
+# use of while loop ( this uses format of ICU i.e. Initialization, Condition, Update)
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
@@ -41,3 +41,13 @@ public class Main{
     }
 }
 -----------------------------------------------------------------------
+# use of for loop( in this ICU is in one parameter)
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Hello lets do it4");
+        for(int i = 0 ; i<10 ; i++){
+            System.out.println("i is :"+i);
+        }
+    }
+}
