@@ -28,15 +28,15 @@ public class Main{
     }
 }
 ------------------------------------------------------------------------
-# use of while
+# use of while ( this uses format of ICU i.e. Initialization, Condition, Update)
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
         System.out.println("Here we ggoooooo");
-        int i=0;
-        while(i<10){
+        int i=0; // initialilzation
+        while(i<10){ // condition
             System.out.println("i is:"+i);
-            i++;
+            i++; // update
         }
     }
 }
