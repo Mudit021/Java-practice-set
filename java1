@@ -1,0 +1,29 @@
+# To display print
+import java.util.Scanner; // how to take input from the user.
+public class Main{
+    public static void main(String[] args){
+        double Print =5.5 ;
+        float num = 4.4f;
+        System.out.println(Print+" "+num); // print more than 1 keyword
+    }
+}
+------------------------------------------------------------------
+# to take input and use if,else if, else
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+        if (s.equals("Mudit")){
+            System.out.println("Hey Mudit");
+        }
+        else if (s.equals("Gupta")){
+            System.out.println("Hey Guptaji");
+        }
+        else {
+            System.out.println("Not welcome here");
+        }
+        in.close();
+    }
+}
+------------------------------------------------------------------------
