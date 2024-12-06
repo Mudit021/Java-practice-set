@@ -28,3 +28,16 @@ public class Main{
     }
 }
 ------------------------------------------------------------------------
+# use of while
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Here we ggoooooo");
+        int i=0;
+        while(i<10){
+            System.out.println("i is:"+i);
+            i++;
+        }
+    }
+}
+-----------------------------------------------------------------------
