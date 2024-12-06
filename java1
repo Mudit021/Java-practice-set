@@ -51,3 +51,19 @@ public class Main{
         }
     }
 }
+----------------------------------------------------------------------
+# use of do while note: if using false with while the loop will run atleast once
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Let's go");
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();// note for input as string use nextLine() for interger use nextInt() i.e. jis datatype ko initialize kr rahe h usko next ke saath lihkna h
+        int i = 0; // initialization    
+        do{
+            System.out.println("i is:"+i);
+            i++;// update    
+        }
+        while(i<a);// condition
+    }
+}
