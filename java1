@@ -67,3 +67,19 @@ public class Main{
         while(i<a);// condition
     }
 }
+------------------------------------------------------------------------------
+# voting age 
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Enter your age:");
+        Scanner in = new Scanner (System.in);
+        Integer i = in.nextInt();
+        if (i<18){
+            System.out.println("You can not vote.");
+        }
+        else {
+            System.out.println("You are eligible.");
+        }
+    }
+}
