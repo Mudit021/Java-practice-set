@@ -1,3 +1,4 @@
+For reference use: https://onecompiler.com/cheatsheets/java
 # To display print
 import java.util.Scanner; // how to take input from the user.
 public class Main{
