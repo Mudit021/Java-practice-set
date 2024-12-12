@@ -132,5 +132,21 @@ public class Main{
         System.out.println(names.remove());// this will print thwe first one in the queue of the linked list.
     }
 }
-// Note: we can also specifiy the index position to be removed or to br printed.
 ----------------------------------------------------------------------------------------------------
+# the use of ArrayList as in this we have to also use the position of the index to be printed and removed
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        System.out.println("Enter your word:");
+        Scanner in = new Scanner(System.in);
+        //System.out.println("This is your syntax: "+ a+'.');
+        ArrayList<String> names= new ArrayList<String>();
+        for (int i =0; i<5;i++){
+            String a = in.nextLine();
+            names.add(a);
+        }
+        System.out.println( names.remove(2));
+    }
+}
+-----------------------------------------------------------------------------------------------------------
