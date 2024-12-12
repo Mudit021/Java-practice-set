@@ -132,4 +132,5 @@ public class Main{
         System.out.println(names.remove());// this will print thwe first one in the queue of the linked list.
     }
 }
+// Note: we can also specifiy the index position to be removed or to br printed.
 ----------------------------------------------------------------------------------------------------
