@@ -150,3 +150,21 @@ public class Main{
     }
 }
 -----------------------------------------------------------------------------------------------------------
+#  STACKS in JAVA
+import java.util.*;
+public class Main{
+	public static void main(String[] args) {
+		LinkedList<String> names = new LinkedList<String>();
+		names.push("Mudit");// 0 index
+		names.push("Mdit");//1 index
+		names.push("Muit");//2 index
+		names.push("Mudt");//3 index
+		names.push("Mudi");//4index
+		names.push("udit");//5 index
+		names.push("Mit");//6 index
+		// three ways to show the last entered element in the stack
+		System.out.println(names.remove()); // it can also take index
+		System.out.println(names.pop());
+		System.out.println(names.removeFirst());
+		}
+	}
