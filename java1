@@ -159,12 +159,37 @@ public class Main{
 		names.push("Mdit");//1 index
 		names.push("Muit");//2 index
 		names.push("Mudt");//3 index
-		names.push("Mudi");//4index
-		names.push("udit");//5 index
-		names.push("Mit");//6 index
 		// three ways to show the last entered element in the stack
 		System.out.println(names.remove()); // it can also take index
 		System.out.println(names.pop());
 		System.out.println(names.removeFirst());
 		}
 	}
+--------------------------------------------------------------------------------------------------
+//#  STACKS ka Iterator in JAVA
+import java.util.*;
+public class Main{
+	public static void main(String[] args) {
+		LinkedList<String> names = new LinkedList<String>();
+		names.push("Mudit");
+		names.push("Mdit");
+		names.push("Muit");
+		names.push("Mudt");
+		Iterator<String> it = names.iterator(); // iterator
+		//iteration using while
+		while(it.hasNext()){ // this is the repetition of the iterator as this function allows to repeate itself again and again.
+			System.out.println(it.next()); // this will print the last entered element in the stack. and moves the head node to the next element.
+		}
+		System.out.println("This prints like a stack of plates.");
+		//iteration using for
+		for (String s: names){
+			System.out.println(s);
+			}
+		// to add element in a positon in stack use function of add(<position>,<data>)
+		names.add(3, "Qwerty");
+		System.out.println("Now we will add Qwerty to the 3rd index.");
+		for (String s: names){
+			System.out.println(s);
+			}
+		}
+		}
