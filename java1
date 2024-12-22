@@ -196,3 +196,18 @@ public class Main{
 -------------------------------------------------------------------------------------
 // refactoring = taking a project that is good and changing the source , fewer bug and cleaner code
 ---------------------------------------------------------------------------------------
+// ready from file
+import java.util.*;
+import java.io.*;
+public class newfile
+{
+	public static void main(String[] args){
+		try{Scanner in = new Scanner(new File("text.txt"));
+		String read = in.nextLine();
+		System.out.println(read);
+		} catch (FileNotFoundException e){
+			System.out.println("File not found: "+e.getMessage());;
+			}
+		}
+	}
+========================================================================================
