@@ -211,3 +211,20 @@ public class newfile
 		}
 	}
 ========================================================================================
+// ready from file with while loop
+import java.util.*;
+import java.io.*;
+public class newfile
+{
+	public static void main(String[] args){
+		try{Scanner in = new Scanner(new File("text.txt"));
+	//if there is more than one line to read then use while loop
+		while(in.hasNext()){
+		String read = in.nextLine();
+		System.out.println(read);}
+		} catch (FileNotFoundException e){
+			System.out.println("File not found: "+e.getMessage());;
+			}
+		}
+	}
+===============================================================================================
