@@ -228,3 +228,27 @@ public class newfile
 		}
 	}
 ===============================================================================================
+// collection in java - ordered list, dictionaries/maps, sets
+
+
+// polimosphism  = Polymorphism is one of the core concepts of Object-Oriented Programming (OOP), and it means "many forms". 
+// inheritance =  inheritance allows a class (subclass) to inherit fields and methods from another class (superclass), enabling code reuse and the creation of hierarchical relationships between classes.
+// encapsulation =  encapsulation means hiding the internal details (like data or variables) of a class and only allowing access to them through special methods (getter and setter). This helps protect the data from being changed directly and ensures it’s always used in a controlled way.
+// abstraction = hide the complex implementation details and show only the essential features to the user. In simpler terms, abstraction allows you to focus on what an object does, not on how it does it.
+import java.util.*;
+public class Collection{
+  public static void main(String[] args){
+    int[] ages = new int[5][3];//this is making of array note: always give value in braces
+    // two types of arrays in java 2d and jagged
+    // this is the example of jagged array
+    ages[0] = new int[10];
+    ages[1] = new int[3];
+    ArrayList<Integer> ages = new ArrayList<Interger>();
+    ages.add(5); // how to add in ArrayList
+    
+
+
+    
+  }
+}
+
