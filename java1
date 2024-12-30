@@ -258,3 +258,20 @@ public class Main{
     }
 }
 ======================================================================================================
+// add and get from HashMap
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+    
+    HashMap<String,Integer> ids = new HashMap<String, Integer>();
+    // add in HashMap     ids.put(key,value);
+    ids.put("Mudit",3);
+    ids.put("Hello",5);
+    // to get a value from HashMap	ids.get(key);
+    System.out.println(ids.get("Mudit"));
+    }
+}
+=============================================================================================================
+
+
+
