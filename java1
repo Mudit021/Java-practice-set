@@ -244,11 +244,17 @@ public class Collection{
     ages[0] = new int[10];
     ages[1] = new int[3];
     ArrayList<Integer> ages = new ArrayList<Interger>();
-    ages.add(5); // how to add in ArrayList
-    
-
-
-    
+    ages.add(5); // how to add in ArrayList   
   }
 }
-
+===========================================================================================================
+// hash
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+    String s = "Hello World";
+    
+        System.out.println(s.hashCode());    
+    }
+}
+======================================================================================================
