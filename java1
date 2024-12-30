@@ -272,6 +272,11 @@ public class Main{
     // to get a value from HashMap	ids.get(key);
     System.out.println(ids.get("Mudit"));
     System.out.println(ids.get("Gupta"));
+    // to print the values from the keys
+    Set<String> keys = ids.keySet();
+    for(String key : keys){
+    System.out.println(key);
+    }
     }
 }
 =============================================================================================================
