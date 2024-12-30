@@ -276,6 +276,8 @@ public class Main{
     Set<String> keys = ids.keySet();
     for(String key : keys){
     System.out.println(key);
+    // to get the values of the key
+    System.out.println(ids.get(key));
     	}
     }
 }
