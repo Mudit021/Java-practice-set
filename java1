@@ -258,7 +258,7 @@ public class Main{
     }
 }
 ======================================================================================================
-// add and get from HashMap
+// add and get/getOrDefault from HashMap
 import java.util.*;
 public class Main{
     public static void main(String[] args){
@@ -266,9 +266,12 @@ public class Main{
     HashMap<String,Integer> ids = new HashMap<String, Integer>();
     // add in HashMap     ids.put(key,value);
     ids.put("Mudit",3);
-    ids.put("Hello",5);
+    ids.put("Gupta",4);
+    // getOrDefault : in this the initial value is given that if the key doesn't exsist then it will be created
+    ids.put("Gupta", ids.getOrDefault("Gupta",0)+1);
     // to get a value from HashMap	ids.get(key);
     System.out.println(ids.get("Mudit"));
+    System.out.println(ids.get("Gupta"));
     }
 }
 =============================================================================================================
