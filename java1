@@ -282,6 +282,8 @@ public class Main{
     }
 }
 =============================================================================================================
+/*if there is ? then it is a wildcard as this allows to accept the extended varable
+type of the required list and then write extends and before it place ?.*/
 
 
 
